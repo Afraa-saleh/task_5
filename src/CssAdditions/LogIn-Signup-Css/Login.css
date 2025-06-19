@@ -1,0 +1,129 @@
+.login-container {
+  background: linear-gradient(to bottom, #feaf00, #ffd666);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-container {
+  background: linear-gradient(to bottom, #feaf00, #ffd666);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-signup-card {
+  width: 476px;
+  height: 550px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
+}
+
+.signup-card {
+  height: 710px;
+}
+
+.login-logo img {
+  width: 151.3px;
+  height: 41px;
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+
+.signup-logo {
+  width: 151.3px;
+  height: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+.login-signup-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.login-signup-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #6c6c6c;
+  margin-bottom: 24px;
+}
+
+.login-form-group {
+  width: 415.87px;
+}
+
+.login-signup-label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+  line-height: 100%;
+}
+
+.login-input {
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #e5e5e5;
+}
+
+.signup-input {
+  border-radius: 4px;
+  border: 1px solid #e5e5e5;
+}
+
+.image-box {
+
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+  border: 1px dashed rgba(56, 78, 183, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 8px;
+  cursor: pointer;
+
+}
+
+.login-button {
+  width: 415.87px;
+  height: 44px;
+  background-color: #feaf00;
+  border-color: #feaf00;
+  border-radius: 4px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.login-button:hover {
+
+  background-color: transparent;
+  border: 2px solid #feaf00;
+  color: #feaf00;
+  font-weight: 700;
+}
+
+.login-prompt {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+.signup-link {
+  font-weight: 600;
+  font-size: 14px;
+  color: #feaf00;
+  cursor: pointer;
+}

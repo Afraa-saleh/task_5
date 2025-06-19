@@ -1,0 +1,47 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+.custom-pagination .page-item .page-link {
+  border-radius: 50% !important;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 0;
+  line-height: 38px;
+  margin: 0 5px;
+  border: 1px solid #ddd;
+  color: #000;
+  background-color: #fff;
+  font-weight: 500;
+  
+}
+
+.custom-pagination .page-item.active .page-link {
+  background-color: #FFA800 !important;
+  color: white !important;
+  border: none;
+}
+
+.custom-pagination .page-item.disabled .page-link {
+  opacity: 0.5;
+}
+.btn-back{
+  margin:0 2rem;
+  width: 40px;
+  height: 40px;
+}
+.btn-back svg{
+  color: black;
+}
+.label-size{
+  font-size: 32px;
+  font-weight: 500;
+  color: #6C6C6C;
+}
+
+
+.item-details-name{
+  padding: 1rem 2rem;
+  font-size: 60px;
+}
+
